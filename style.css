@@ -1,0 +1,425 @@
+@font-face {
+    font-family: 'Old London';
+    src: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/OldLondon.ttf') format('truetype'),
+        url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/OldLondonAlternate.ttf') format('truetype'),
+        url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/Olondon_.otf') format('opentype');
+}
+
+body {
+    background: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/zengarden-background.svg'), radial-gradient(circle at 50% 20%, #DADADA 0%, rgba(24, 24, 24, 0.78) 80%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:top center;
+    font-family: 'Old London', sans-serif;
+    color: rgba(50, 46, 60, 1);
+    filter:drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+}
+
+header {
+    text-align: center;
+    margin-top: 100px;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header h2 {
+    margin-top: -30px;
+}
+
+#zen-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 223px;
+    height: 402px;
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/garg-normal-p.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 170px;
+    transition: all 0.3s;
+    cursor: pointer;
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+#zen-summary:hover {
+    margin-top: 0px;
+    padding-bottom: 150px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#zen-summary p {
+    width: 65%;
+}
+
+#zen-summary p:first-child {
+    margin-bottom: 0px;
+}
+
+#zen-summary p:last-child {
+    margin-bottom: 30px;
+    margin-left: 4%;
+}
+
+#zen-summary a {
+    color: #B31919;
+    font-weight: bold;
+}
+
+#zen-preamble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 402px;
+    transition: all 0.3s;
+    border: 15px solid rgba(210, 209, 205, 1);
+    background-color: rgba(50, 46, 60, 1);
+    border-radius: 100%;
+    color: #DADADA;
+    margin-top: -200px;
+    margin-left: -3px;
+    transform: scale(.1);
+    opacity: .1;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-preamble:hover {
+    margin-left: 100px;
+    margin-top: -100px;
+    transform: scale(1);
+    opacity: 1;
+
+}
+
+#zen-preamble h3 {
+    margin-top: 0px;
+}
+
+#zen-preamble p {
+    width: 65%;
+}
+
+#zen-supporting{
+    /* border: 1px solid; */
+}
+
+#zen-explanation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    transition: all 0.3s;
+    border: 15px solid rgba(210, 209, 205, 1);
+    background-color: rgba(50, 46, 60, 1);
+    border-radius: 100%;
+    color: #DADADA;
+    margin-top: -212px;
+    margin-left: 895px;
+    opacity: .1;
+    transform: scale(.06);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-explanation:hover {
+    margin-left: 800px;
+    margin-top: -100px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#zen-explanation h3 {
+    margin-top: 0px;
+}
+
+#zen-explanation p {
+    width: 65%;
+}
+
+#zen-participation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 550px;
+    transition: all 0.3s;
+    border: 15px solid rgba(210, 209, 205, 1);
+    background-color: rgba(50, 46, 60, 1);
+    border-radius: 100%;
+    color: #DADADA;
+    margin-top: -555px;
+    margin-left: 778px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-participation:hover {
+    margin-left: 800px;
+    margin-top: -100px;
+    transform: scale(1);
+    opacity: 1;
+}
+
+#zen-participation h3 {
+    margin-top: 0px;
+}
+
+#zen-participation p {
+    width: 65%;
+}
+
+#zen-participation a {
+    color: #B31919;
+    font-weight: bold;
+}
+
+#zen-benefits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    transition: all 0.3s;
+    border: 15px solid rgba(210, 209, 205, 1);
+    background-color: rgba(50, 46, 60, 1);
+    border-radius: 100%;
+    color: #DADADA;
+    margin-top: -480px;
+    margin-left: 260px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-benefits:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#zen-benefits h3 {
+    margin-top: 0px;
+}
+
+#zen-benefits p {
+    width: 65%;
+}
+
+#zen-requirements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 650px;
+    transition: all 0.3s;
+    border: 15px solid rgba(210, 209, 205, 1);
+    background-color: rgba(50, 46, 60, 1);
+    border-radius: 100%;
+    color: #DADADA;
+    margin-top: -520px;
+    margin-left: 290px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-requirements:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+#zen-requirements h3 {
+    margin-top: 0px;
+}
+
+#zen-requirements p {
+    width: 65%;
+}
+
+#zen-requirements a {
+    color: #B31919;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    color: #DADADA;
+    margin-top: 106px;
+}
+
+.zen-validate-html{
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/html.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.zen-validate-css{
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/css.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.zen-license{
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/cc.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+
+}
+
+.zen-accessibility{
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/invalid.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+.zen-github{
+    background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/git.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+
+}
+footer a {
+    color: rgba(0, 0, 0, 0);
+    font-size: .1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+#design-selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    transition: all 0.3s;
+    background-color: rgba(50, 46, 60, 1);
+    color: #DADADA;
+    position: absolute;
+    top: 85%;
+    left: 890px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#design-selection:hover {
+    top: 80%;
+    left: 900px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#design-selection ul li a{
+    color: #D2D1CD;
+    text-decoration: none;
+}
+
+#design-selection ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#design-archives{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    transition: all 0.3s;
+    background-color: rgba(50, 46, 60, 1);
+    color: #DADADA;
+    position: absolute;
+    top: 85%;   
+    left: 570px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#design-archives:hover {
+    top: 80%;
+    left: 600px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#design-archives ul li a{
+    color: #D2D1CD;
+    text-decoration: none;
+}
+
+#design-archives ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#zen-resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    transition: all 0.3s;
+    background-color: rgba(50, 46, 60, 1);
+    color: #DADADA;
+    position: absolute;
+    top: 85%;
+    left: 250px;
+    opacity: .1;
+    transform: scale(.1);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#zen-resources:hover {
+    top: 80%;
+    left: 300px;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#zen-resources ul li a{
+    color: #D2D1CD;
+    text-decoration: none;
+}
+
+#zen-resources ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
