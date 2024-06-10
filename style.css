@@ -9,10 +9,10 @@ body {
     background: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/zengarden-background.svg'), radial-gradient(circle at 50% 20%, #DADADA 0%, rgba(24, 24, 24, 0.78) 80%);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:top center;
+    background-position: top center;
     font-family: 'Old London', sans-serif;
     color: rgba(50, 46, 60, 1);
-    filter:drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.2));
 }
 
 header {
@@ -29,6 +29,9 @@ header h2 {
 }
 
 #zen-summary {
+    position: relative;
+    left: 42.7%;
+    top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -38,8 +41,6 @@ header h2 {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/garg-normal-p.svg');
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 0 auto;
-    margin-top: 170px;
     transition: all 0.3s;
     cursor: pointer;
     transform: scale(0.5);
@@ -47,8 +48,7 @@ header h2 {
 }
 
 #zen-summary:hover {
-    margin-top: 0px;
-    padding-bottom: 150px;
+    top: 0;
     transform: scale(1);
     opacity: 1;
 }
@@ -71,7 +71,9 @@ header h2 {
     font-weight: bold;
 }
 
-#zen-preamble{
+#zen-preamble {
+    left: 55%;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,8 +85,6 @@ header h2 {
     background-color: rgba(50, 46, 60, 1);
     border-radius: 100%;
     color: #DADADA;
-    margin-top: -200px;
-    margin-left: -3px;
     transform: scale(.1);
     opacity: .1;
     transition: all 0.3s;
@@ -92,8 +92,6 @@ header h2 {
 }
 
 #zen-preamble:hover {
-    margin-left: 100px;
-    margin-top: -100px;
     transform: scale(1);
     opacity: 1;
 
@@ -107,11 +105,14 @@ header h2 {
     width: 65%;
 }
 
-#zen-supporting{
+#zen-supporting {
     /* border: 1px solid; */
 }
 
-#zen-explanation{
+#zen-explanation {
+    position: relative;
+    top: -188px;
+    left: 12.3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,8 +124,6 @@ header h2 {
     background-color: rgba(50, 46, 60, 1);
     border-radius: 100%;
     color: #DADADA;
-    margin-top: -212px;
-    margin-left: 895px;
     opacity: .1;
     transform: scale(.06);
     transition: all 0.3s;
@@ -132,8 +131,6 @@ header h2 {
 }
 
 #zen-explanation:hover {
-    margin-left: 800px;
-    margin-top: -100px;
     transform: scale(1);
     opacity: 1;
 }
@@ -146,7 +143,10 @@ header h2 {
     width: 65%;
 }
 
-#zen-participation{
+#zen-participation {
+    position: absolute;
+    left: 50.7%;
+    top: 43%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,8 +158,6 @@ header h2 {
     background-color: rgba(50, 46, 60, 1);
     border-radius: 100%;
     color: #DADADA;
-    margin-top: -555px;
-    margin-left: 778px;
     opacity: .1;
     transform: scale(.1);
     transition: all 0.3s;
@@ -167,8 +165,7 @@ header h2 {
 }
 
 #zen-participation:hover {
-    margin-left: 800px;
-    margin-top: -100px;
+
     transform: scale(1);
     opacity: 1;
 }
@@ -186,7 +183,10 @@ header h2 {
     font-weight: bold;
 }
 
-#zen-benefits{
+#zen-benefits {
+    position: absolute;
+    left: 20%;
+    bottom: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,9 +198,7 @@ header h2 {
     background-color: rgba(50, 46, 60, 1);
     border-radius: 100%;
     color: #DADADA;
-    margin-top: -480px;
-    margin-left: 260px;
-    opacity: .1;
+    /* opacity: .1; */
     transform: scale(.1);
     transition: all 0.3s;
     cursor: pointer;
@@ -219,7 +217,7 @@ header h2 {
     width: 65%;
 }
 
-#zen-requirements{
+#zen-requirements {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -257,16 +255,15 @@ header h2 {
     font-weight: bold;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 30px;
     color: #DADADA;
-    margin-top: 106px;
 }
 
-.zen-validate-html{
+.zen-validate-html {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/html.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -274,7 +271,7 @@ footer{
     height: 30px;
 }
 
-.zen-validate-css{
+.zen-validate-css {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/css.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -282,7 +279,7 @@ footer{
     height: 30px;
 }
 
-.zen-license{
+.zen-license {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/cc.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -291,7 +288,7 @@ footer{
 
 }
 
-.zen-accessibility{
+.zen-accessibility {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/invalid.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -299,7 +296,7 @@ footer{
     height: 30px;
 }
 
-.zen-github{
+.zen-github {
     background-image: url('https://raw.githubusercontent.com/Bakbak24/zengarder-gth-images/main/git.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -307,6 +304,7 @@ footer{
     height: 30px;
 
 }
+
 footer a {
     color: rgba(0, 0, 0, 0);
     font-size: .1em;
@@ -316,7 +314,7 @@ footer a {
 
 
 
-#design-selection{
+#design-selection {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,17 +340,17 @@ footer a {
     transform: scale(1);
 }
 
-#design-selection ul li a{
+#design-selection ul li a {
     color: #D2D1CD;
     text-decoration: none;
 }
 
-#design-selection ul li{
+#design-selection ul li {
     list-style-type: none;
     margin-bottom: 10px;
 }
 
-#design-archives{
+#design-archives {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,7 +361,7 @@ footer a {
     background-color: rgba(50, 46, 60, 1);
     color: #DADADA;
     position: absolute;
-    top: 85%;   
+    top: 85%;
     left: 570px;
     opacity: .1;
     transform: scale(.1);
@@ -378,17 +376,17 @@ footer a {
     transform: scale(1);
 }
 
-#design-archives ul li a{
+#design-archives ul li a {
     color: #D2D1CD;
     text-decoration: none;
 }
 
-#design-archives ul li{
+#design-archives ul li {
     list-style-type: none;
     margin-bottom: 10px;
 }
 
-#zen-resources{
+#zen-resources {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -414,12 +412,12 @@ footer a {
     transform: scale(1);
 }
 
-#zen-resources ul li a{
+#zen-resources ul li a {
     color: #D2D1CD;
     text-decoration: none;
 }
 
-#zen-resources ul li{
+#zen-resources ul li {
     list-style-type: none;
     margin-bottom: 10px;
 }
