@@ -318,6 +318,9 @@ footer a {
 
 
 #design-selection {
+    position: absolute;
+    top: 85%;
+    left: 59.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -327,9 +330,6 @@ footer a {
     transition: all 0.3s;
     background-color: rgba(50, 46, 60, 1);
     color: #DADADA;
-    position: absolute;
-    top: 85%;
-    left: 890px;
     opacity: .1;
     transform: scale(.1);
     transition: all 0.3s;
@@ -337,8 +337,7 @@ footer a {
 }
 
 #design-selection:hover {
-    top: 80%;
-    left: 900px;
+    top: 77%;
     opacity: 1;
     transform: scale(1);
 }
@@ -354,6 +353,9 @@ footer a {
 }
 
 #design-archives {
+    position: absolute;
+    top: 85%;
+    left: 37.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,9 +365,6 @@ footer a {
     transition: all 0.3s;
     background-color: rgba(50, 46, 60, 1);
     color: #DADADA;
-    position: absolute;
-    top: 85%;
-    left: 570px;
     opacity: .1;
     transform: scale(.1);
     transition: all 0.3s;
@@ -373,8 +372,7 @@ footer a {
 }
 
 #design-archives:hover {
-    top: 80%;
-    left: 600px;
+    top: 77%;
     opacity: 1;
     transform: scale(1);
 }
@@ -390,6 +388,9 @@ footer a {
 }
 
 #zen-resources {
+    position: absolute;
+    top: 85%;
+    left: 19.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -399,9 +400,6 @@ footer a {
     transition: all 0.3s;
     background-color: rgba(50, 46, 60, 1);
     color: #DADADA;
-    position: absolute;
-    top: 85%;
-    left: 250px;
     opacity: .1;
     transform: scale(.1);
     transition: all 0.3s;
@@ -409,7 +407,7 @@ footer a {
 }
 
 #zen-resources:hover {
-    top: 80%;
+    top: 77%;
     left: 300px;
     opacity: 1;
     transform: scale(1);
